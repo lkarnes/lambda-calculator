@@ -1,0 +1,19 @@
+.container {
+    background: crimson;
+    width: 600px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+button{
+    font-size: 40px;
+    border: 0;
+    border-bottom: 5px solid black;
+    border-radius: 100%;
+    padding: 0;
+    width: 27%;
+    height: 80px;
+    
+    background: rgb(50, 50, 189);
+}

@@ -1,9 +1,13 @@
 import React from "react";
+import "../../../App";
 
-const NumberButton = () => {
+const NumberButton = props => {
+  const int = props.int;
   return (
-    <>
-      {/* Display a button element rendering the data being passed down from the parent container on props */}
-    </>
+    <button className='number'>
+      {int/* Display a button element rendering the data being passed down from the parent container on props */}
+    </button>
   );
 };
+
+export default NumberButton;
