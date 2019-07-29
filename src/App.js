@@ -17,9 +17,15 @@ function App() {
     <div className="container">
       <Logo />
       <div className="App">
-        <Numbers/>
-        <Specials/>
-        <Operators/>
+        <span className='numberBar'>0</span>
+        <div className='buttonBox'>
+          <div className='columns'>
+            <Specials/>
+            <Numbers/>
+          </div>
+          <Operators/>
+        </div>
+        
         {/* STEP 4 - Render your components here and be sure to properly import/export all files */}
       </div>
     </div>

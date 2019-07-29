@@ -1,19 +1,61 @@
-.container {
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 550px;
     background: crimson;
-    width: 600px;
-    height: 800px;
     display: flex;
     flex-direction: column;
+    padding: 20px;
     align-items: center;
 }
+.App{
+    margin-top:20px; 
+}
 button{
-    font-size: 40px;
+    font-size: 30px;
     border: 0;
-    border-bottom: 5px solid black;
+    border-bottom: 4px solid black;
     border-radius: 100%;
-    padding: 0;
-    width: 27%;
-    height: 80px;
-    
-    background: rgb(50, 50, 189);
+    background: dodgerblue;
+    color: white;
+    width: 100px;
+    height: 100px;
+    margin:  10px 10px;
+}
+.buttonBox{
+    margin-top: 20px;
+    display: flex;
+}
+.columns{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+}
+.opBox{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+.specialBox{
+    display: flex;
+    justify-content: space-around;
+}
+
+.numBox{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.numberBar{
+    padding: 15px 30px 15px 430px;
+    border-radius: 40px;
+    margin-left: 15px;
+    background: gray;
+    color: white;
+    font-size: 40px;
+    text-align: end;
+}
+.number{
+    background: rgb(53, 53, 209);
 }

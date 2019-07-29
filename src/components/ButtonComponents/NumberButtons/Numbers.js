@@ -7,13 +7,13 @@ import NumberButton from './NumberButton';
 
 const Numbers = () => {
   // STEP 2 - add the imported data to state
-  const style  = {display: 'flex', width: '300px', flexWrap : 'wrap'}
+
   const [numberState, setNumberState] = useState(numbers);
   return (
-    <div style={style}>
+    <div className='numBox'>
 
       {numberState.map(number=>{
-        return <NumberButton int={number}/>
+        return <NumberButton className='numBox' int={number}/>
       })
         /* STEP 3 - Use .map() to iterate over your array data and return a button
        component matching the name on the provided file. Pass

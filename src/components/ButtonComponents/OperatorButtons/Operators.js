@@ -10,10 +10,10 @@ const Operators = () => {
   const [operator, setOperators]= useState(operators);
   // STEP 2 - add the imported data to state
   return (
-    <div>
+    <div className='opBox'>
       {
         operator.map(ops => {
-          return <OperatorButton btn = {ops.char}/>
+          return <OperatorButton  btn = {ops.char}/>
         })
         /* STEP 3 - Use .map() to iterate over your array data and return a button
        component matching the name on the provided file. Pass

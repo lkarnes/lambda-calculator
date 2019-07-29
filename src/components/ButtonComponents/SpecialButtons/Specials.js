@@ -11,7 +11,7 @@ const Specials = () => {
   // STEP 2 - add the imported data to state
 
   return (
-    <div>
+    <div className='specialBox'>
       {special.map(spec=>{
         return <SpecialButton value={spec}/>
       })/* STEP 3 - Use .map() to iterate over your array data and return a button
